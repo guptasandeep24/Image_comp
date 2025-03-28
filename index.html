@@ -239,12 +239,17 @@
             <p>Add password protection to your PDF files</p>
         </div>
 
-        <div class="tool-card">
-            <i class="fas fa-cut tool-icon"></i>
-            <h3>Image Cropper</h3>
-            <p>Precisely crop and resize images</p>
-        </div>
-    </div>
+        .tool-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tool-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
 
     <footer>
         <div class="footer-content">
